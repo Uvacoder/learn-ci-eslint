@@ -11,6 +11,7 @@
     "lint:fix": "eslint src --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
     "tsc": "tsc",
+    "prettier:check": "prettier -c src",
     "format": "prettier --write src",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main",
