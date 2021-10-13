@@ -9,7 +9,7 @@
     "prepare": "husky install",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
-    "lint:strict": "eslint --max-warnings=0",
+    "lint:strict": "eslint --max-warnings=0 src",
     "tsc": "tsc",
     "format": "prettier --write src",
     "release": "standard-version",
