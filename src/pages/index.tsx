@@ -20,7 +20,7 @@ export default function HomePage() {
     <>
       <Seo templateTitle='Home' />
 
-      <main>
+<main>
         <section className='bg-dark'>
           <div className='flex flex-col items-center justify-center min-h-screen text-center text-white layout'>
             <h1>Next.js + Tailwind CSS + TypeScript Starter</h1>
