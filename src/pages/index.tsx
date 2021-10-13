@@ -6,6 +6,16 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
 export default function HomePage() {
+  // test unused var, and explicit any
+  const [count, setCount] = React.useState<any>();
+
+  // test implicit any
+  function foo(bar) {
+    return bar;
+  }
+
+  foo(2);
+
   return (
     <>
       <Seo templateTitle='Home' />
